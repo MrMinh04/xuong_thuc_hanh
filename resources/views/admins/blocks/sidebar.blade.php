@@ -58,6 +58,12 @@
                         <span> Đơn hàng </span>
                     </a>
                 </li>
+                <li>
+                    <a class='tp-link' href='{{ route('thong_ke.show') }}'>
+                        <i data-feather="package"></i>
+                        <span> Thông kê </span>
+                    </a>
+                </li>
             </ul>
 
         </div>

@@ -11,6 +11,7 @@ use App\Http\Controllers\Clients\GioHangController;
 use App\Http\Controllers\DonHangController;
 use App\Http\Middleware\CheckRouteAdminMiddleware;
 use App\Http\Controllers\Admins\TaiKhoanController;
+use App\Http\Controllers\Admins\ThongKeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -62,5 +63,7 @@ Route::middleware('auth')->group(function () {
             Route::resource('san_pham', SanPhamController::class);
             Route::resource('danh_muc', DanhMucController::class);
             Route::resource('tai_khoan', TaiKhoanController::class);
+
+            Route::get('/thong_ke', [ThongKeController::class, 'show'])->name('thong_ke.show');
         });
 });

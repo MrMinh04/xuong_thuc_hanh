@@ -80,7 +80,7 @@
                     </div>
                     <div style="width: 40%;" class="ms-5">
                         <label for="" class="form-label">Album hình ảnh</label>
-                        <i id="add-row" class="fa-solid fa-plus ms-3" style="cursor: pointer;"></i>
+                        <i id="add-row" class="fa-solid fa-plus ms-3" style="cursor: pointer;">+</i>
                         <table class="table align-middle table-nowrap mb-0">
                             <tbody id="image-table-id">
 
@@ -98,7 +98,7 @@
                                         </td>
                                         <td>
                                             <i class="fa-solid fa-trash" style="cursor: pointer;"
-                                                onclick="removeRow(this)"></i>
+                                                onclick="removeRow(this)">Xoá</i>
                                         </td>
                                     </tr>
                                 @endforeach
@@ -150,7 +150,7 @@
                     </td>
                     <td>
                         <i class="fa-solid fa-trash" style="cursor: pointer;"
-                            onclick="removeRow(this)"></i>
+                            onclick="removeRow(this)">Xoá</i>
                     </td>
             `;
                 tableBody.appendChild(newRow);
