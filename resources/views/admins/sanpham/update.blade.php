@@ -110,7 +110,7 @@
 
                 <div class="mb-3 d-flex justify-content-center">
                     <button type="reset" class="btn btn-outline-secondary me-3">Nhập lại</button>
-                    <button type="submit" class="btn btn-success">Thêm mới</button>
+                    <button type="submit" class="btn btn-success">Cập nhật</button>
                 </div>
             </form>
         </div>

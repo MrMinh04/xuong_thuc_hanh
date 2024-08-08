@@ -178,10 +178,12 @@
                                     <div class="dropdown-divider"></div>
         
                                     <!-- item-->
-                                    <a class='dropdown-item notify-item' href='auth-logout.html'>
-                                        <i class="mdi mdi-location-exit fs-16 align-middle"></i>
-                                        <span>Logout</span>
-                                    </a>
+                                    <li>
+                                        <form action="{{ route('logout') }}" method="POST" id="logout-form">
+                                            @csrf
+                                            <button type="submit" style="background: none; border: none; cursor: pointer;">Đăng xuất</button>
+                                        </form>
+                                    </li>
         
                                 </div>
                             </li>

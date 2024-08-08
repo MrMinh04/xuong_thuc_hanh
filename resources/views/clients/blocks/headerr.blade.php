@@ -11,7 +11,7 @@
                         <div class="col-lg-2">
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="{{asset('assets/client/img/logo/logo.png')}}" alt="Brand Logo">
+                                    <img height="70px" src="{{asset('images/logo_nen_trang.png')}}" alt="Brand Logo">
                                 </a>
                             </div>
                         </div>
@@ -70,6 +70,9 @@
                                                             @csrf
                                                             <button type="submit" style="background: none; border: none; cursor: pointer;">Đăng xuất</button>
                                                         </form>
+                                                    </li><br><br>
+                                                    <li>
+                                                        <a href="{{route('san_pham.index')}}">Admin</a>
                                                     </li>
                                                 @else
                                                     <li><a href="{{ route('login') }}">Đăng nhập</a></li>

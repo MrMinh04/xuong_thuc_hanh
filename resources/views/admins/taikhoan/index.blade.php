@@ -38,7 +38,7 @@
                     <tr>
                         <td>{{ $index + 1 }}</td>
                         <td>{{ $item->name }}</td>
-                        <td>{{ $item->anh_dai_dien }}</td>
+                        <td><img height="50px" src="{{asset('images/ảnh thẻ.jpg')}}" alt=""></td>
                         <td>{{ $item->ngay_sinh }}</td>
                         <td>{{ $item->email }}</td>
                         <td>{{ $item->so_dien_thoai }}</td>

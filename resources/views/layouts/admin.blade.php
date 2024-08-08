@@ -35,20 +35,12 @@
 
             @include('admins.blocks.sidebar')
 
-            <!-- ============================================================== -->
-            <!-- Start Page Content here -->
-            <!-- ============================================================== -->
-
             <div class="content-page">
                 @yield('content')
 
                 @include('admins.blocks.footer')
                 
             </div>
-            <!-- ============================================================== -->
-            <!-- End Page content -->
-            <!-- ============================================================== -->
-
         </div>
         <!-- END wrapper -->
 
@@ -72,8 +64,5 @@
         @yield('js')
         <!-- App js-->
         <script src="{{ asset('assets/admin/js/app.js ')}}"></script>
-
     </body>
-
-<!-- Mirrored from zoyothemes.com/tapeli/html/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 16 Jul 2024 08:34:03 GMT -->
 </html>
